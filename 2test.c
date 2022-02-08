@@ -1,9 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
+#include<math.h>
 int main()
-int id;
-char name[GO];
-float score(10,10,10);
-printf("Input Your ID   =");scanf("%d",&id):
-printf("Input Your Name =");gets(name);
-printf("Input Your score =");scanf("%f",&score);
-printf(" %d  %s  %f\n",id,name,score);
+{
+    char name[20];
+    int a, b, c;
+    printf("Name: ");
+    //scanf("%c",name);
+    fgets(name, 20, stdin);
+    printf("Enter Math:");
+    scanf("%d", &a);
+    printf("Enter Khmer:");
+    scanf("%d", &b);
+    c = a + b;
+    printf("%s",name);
+    printf(" %d + %d = %d\n", a, b, c);
+    return 0;
+}
