@@ -1,11 +1,10 @@
 #include<stdio.h>
 int main(){
-    int i=2;
-    while(i<=10){
+    int i=0;
+    while(i<=20){
         printf("%d\n",i);
-        i+=2;
-        
+        i+=4;
+ 
     }
     return 0;
-    
 }
