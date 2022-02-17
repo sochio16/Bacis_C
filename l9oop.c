@@ -26,10 +26,9 @@ int main(){
                      sum=sum+i;
                  }    
                  printf("\n Sum =%d\n",sum);
-             }break;
-
-         
-         
-    
-        return 0;
+             }
+             break;
+         }
+    }while(jo<0);
+    return 0;
 }
