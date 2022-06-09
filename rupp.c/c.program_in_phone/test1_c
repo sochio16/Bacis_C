@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+    int a = 9, b = 4;
+    int sum, diffterence, product;
+
+    sum = a + b;
+    printf(" a + b = %d\n", sum);
+
+    diffterence = a - b;
+    printf(" a - b = %d\n", diffterence);
+    
+    product = a * b;
+    printf(" a * b = %d\n", product);
+
+
+    return 0;
+}
