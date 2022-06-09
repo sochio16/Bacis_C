@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    
+    int a = 13, b = 4;
+    
+    a += b;             //a=a+b;
+    printf("a = %d\n", a);
+    
+    a -= b;             //a=a-b;
+    printf("a = %d\n", b);
+    
+    return 0;
+}
